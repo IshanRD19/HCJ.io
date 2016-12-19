@@ -1,0 +1,79 @@
+h1{
+	text-align: center;
+	color: black;
+	font-size: 40px;
+	margin: 5%;
+	font-family: sans-serif;
+}
+*{
+	box-sizing: border-box;
+}
+p{padding: 15px; font-weight: bold;}
+#row{width: 100%;}
+.sub{
+	background-color: #a7a7a7;
+	min-height: 200px;
+	border: 1px solid black;
+}
+span{
+	float: right;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	width: 100px;
+	text-align: center;
+	height: 20px;
+}
+#p{
+	background-color: #ee82ee;
+	font-weight: bold;
+}
+#c{
+background-color: #ff3333;
+	font-weight: bold;	
+}
+#b{
+background-color: #e6c200;
+	font-weight: bold;	
+}
+@media(min-width: 992px) {
+	.sub{
+		float: left;
+		width: 30%;
+	}
+	#phy{
+		margin-left: 2%;
+	}
+	#chem{
+		margin-left: 3%;
+	margin-right: 3%
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.sub{float: right;}
+	#phy{
+		margin-left: 2%;
+		margin-right: 3%;
+		width: 45%;
+	}
+	#chem{
+		float: right;
+		position: relative;
+		width: 45%;
+		margin-left: 3%;
+		margin-right: 2%;
+	}
+#bio{
+	clear: both;
+	width: 96%;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-top: 25px;
+	min-height: 150px;
+}
+}
+@media (max-width: 767px){
+	.sub{
+		margin: 2%;
+		min-height: 100px;
+	}
+}
